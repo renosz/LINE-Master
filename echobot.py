@@ -27,9 +27,10 @@ while True:
             receiver.sendMessage("[title] %s" % (str(title)))
         else:
             pass
-        
+        '''
         if msg == None:
         	msg="Sticker"
         	receiver.sendMessage("[%s] %s" % (sender.name, msg))
         else:
         	receiver.sendMessage("[%s] %s" % (sender.name, msg))
+       	'''
